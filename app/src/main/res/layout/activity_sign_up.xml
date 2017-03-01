@@ -13,7 +13,7 @@
         android:layout_marginBottom="16dp"
         android:layout_marginTop="22dp"
         android:gravity="center_horizontal"
-        android:text="Account Login"
+        android:text=""
         android:textColor="#fff"
         android:textSize="26sp"
         android:textStyle="bold" />
@@ -41,13 +41,13 @@
                 android:layout_height="wrap_content">
 
                 <EditText
-                    android:id="@+id/EtUserName"
+                    android:id="@+id/EtEmailId"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:drawableLeft="@drawable/ic_arrow_back_white_24dp"
                     android:drawableTint="#FF4081"
                     android:singleLine="true"
-                    android:hint="User Name"
+                    android:hint="Email Id"
                     android:inputType="textEmailAddress" />
             </android.support.design.widget.TextInputLayout>
 
@@ -66,51 +66,21 @@
                     android:hint="Password"
                     android:inputType="numberPassword" />
             </android.support.design.widget.TextInputLayout>
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:padding="10dp">
-                <TextView
-                    android:id="@+id/txtSignUp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:paddingTop="5dp"
-                    android:textStyle="bold"
-                    android:text="Sign UP" />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:paddingTop="5dp"
-                    android:textStyle="bold"
-                    android:text="Forgot Password?" />
-            </RelativeLayout>
+
 
             <Button
-                android:id="@+id/btnLogin"
+                android:id="@+id/btnSignUp"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="22dp"
                 android:background="#d67601"
-                android:text="Sign in"
+                android:text="Sign Up"
                 android:textAllCaps="false"
                 android:textColor="#fff"
                 android:textSize="18sp" />
         </LinearLayout>
     </RelativeLayout>
 
-    <ImageButton
-        android:id="@+id/user_profile_photo"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_below="@+id/login_title"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/user_profile_image_background"
-        android:elevation="4dp"
-        android:src="@drawable/ic_global_menu_search" />
 
 
 </RelativeLayout>
