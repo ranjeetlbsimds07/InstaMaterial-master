@@ -41,6 +41,37 @@
                 android:layout_height="wrap_content">
 
                 <EditText
+                    android:id="@+id/EtFirstName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_arrow_back_white_24dp"
+                    android:drawableTint="#FF4081"
+                    android:singleLine="true"
+                    android:hint="First Name"
+                    android:inputType="textEmailAddress" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/EtLastName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_arrow_back_white_24dp"
+                    android:drawableTint="#FF4081"
+                    android:singleLine="true"
+                    android:hint="Last Name"
+                    android:inputType="textEmailAddress" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
                     android:id="@+id/EtEmailId"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
